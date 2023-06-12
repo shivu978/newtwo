@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+     body
+     {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color:lightpink;
+     }
+     div
+     {
+          width: 35%;
+          height: auto;
+          margin-left: 5%;
+          background-color: transparent;
+          color: black;
+          font-size: 20px;
+          float: left;
+          padding: 0px;
+          margin-top: 5%;
+          margin-right: 10%;
+          box-shadow: 3px 3px 3px black;
+     }
+     input,textarea
+     {
+           width: 350px;
+           height: auto;
+           padding: 6Px;
+     }
+     input[type= "submit"]
+     {
+        width: 200px;
+        height: auto;
+        padding: 8px;
+        background-color:lightskyblue;
+        color: black;
+        font-size: 20px;
+     }
+     input[type= "reset"]
+     {
+        width: 200px;
+        height: auto;
+        padding: 8px;
+        background-color:rgb(240, 122, 122);
+        color: black;
+        font-size: 20px;
+     }
+     h1
+     {
+        font-size: 30px;
+        
+     }
+    </style>
+</head>
+<body>
+    <div>
+        <h1> Contact With Us</h1>
+        <hr>
+        <form id="frm" name="frm" action="welcome.html" enctype="multipart/form-data">
+  
+        <table align="center" width="100%">
+
+    <tr>
+    <th align="left"> Email*</th>
+    <td><input type="text" name="Email" placeholder="Email*" required></td>
+    </tr>
+
+    <tr>
+    <th align="left"> Name* </th>
+   <td> <input type="text" name="Name" placeholder="Name*" required></td>
+    </tr>
+    
+    <tr>
+     <th align="left"> Phone* </th>
+    <td><input type="number" name="Phone" placeholder="Phone*" required></td>
+    </tr>
+
+    <tr>
+    <th align="left"> Subject* </th>
+    <td><input type="text" name="Subject" placeholder="Subject*" required></td>
+    </tr>
+
+    <tr>
+    <th align="left" > Message*</th>
+    <td><textarea name="message" placeholder="message*" required></textarea></td>
+    </tr>
+    
+    <tr>
+    <td align="center" colspan="2"><input type="submit" name="Submit"  value="Send">
+
+    <input type="Reset" name="Reset"  value="Reset"></td>
+    </tr>
+
+    </form>
+    </table>
+    </div>
+
+    <div>
+        <h1> Get In Touch With Map </h1>
+        <hr align="left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.67681217194!2d70.77229007421002!3d22.290229143262543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca248c77c099%3A0xdf5ac10af64ac8ee!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1686395589475!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</html>
